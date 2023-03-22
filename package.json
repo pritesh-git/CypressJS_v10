@@ -4,8 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "cy:open": "cypress open",
-    "cy:run": "cypress run"
+    "cy:e2e": "cypress open",
+    "cy:headless": "cypress run"
   },
   "dependencies": {
     "cypress": "^10.1.0"
