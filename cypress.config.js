@@ -1,8 +1,8 @@
-const { defineConfig } = require("cypress");
+const { defineConfig } = require('cypress')
 
 module.exports = defineConfig({
   e2e: {
-    baseUrl: "https://demo.automationtesting.in",
+    baseUrl: 'https://demo.automationtesting.in',
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
@@ -16,4 +16,4 @@ module.exports = defineConfig({
     viewportWidth: 1000,
     video: false,
   },
-});
+})
